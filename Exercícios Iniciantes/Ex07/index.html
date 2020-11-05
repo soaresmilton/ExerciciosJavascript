@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 07</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Exercício 07 - Tempo de jogo</h1>
+  </header>
+
+  <div id="introducao">
+    <p>
+    <h3>Descrição do exercício:</h3>
+    Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar
+    em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+    </p>
+  </div>
+  <section>
+    <div>
+      <p>Início (horas): <input type="number" name="inicio" id="inicio"></p>
+      <p>Fim (horas): <input type="number" name="fim" id="fim"></p>
+
+      <input type="button" value="Calcular" onclick="calcular()">
+    </div>
+    <div id="res">
+      <p>O resultado irá aparecer aqui...</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      2020 &copy; Criado por Milton Soares
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
