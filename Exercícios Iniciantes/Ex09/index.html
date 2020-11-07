@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 09</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <h1 style="color: aqua;">Exercícios Javascript</h1>
+    <a id="link" href="/Exercícios Iniciantes/Ex01/index.html">Ex 01</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex02/index.html">Ex 02</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex03/index.html">Ex 03</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex04/index.html">Ex 04</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex05/index.html">Ex 05</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex06/index.html">Ex 06</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex07/index.html">Ex 07</a>
+    <a id="link" href="/Exercícios Iniciantes/Ex08/index.html">Ex 08</a>
+  </nav>
+  <header>
+    <h1>Aumento de salário</h1>
+  </header>
+
+  <div id="introducao">
+    <p>
+    <h3>Descrição do exercício:</h3>
+    A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
+    <div class="table">
+      <table border="1">
+        <tr>
+          <td>Salário </td>
+          <td>Reajuste</td>
+        </tr>
+        <tr>
+          <td>0 - 400.00</td>
+          <td>15%</td>
+        </tr>
+        <tr>
+          <td>400.01 - 800.00 </td>
+          <td>12%</td>
+        </tr>
+        <tr>
+          <td>800.01 - 1200.00</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <td>1200.01 - 2000</td>
+          <td>7%</td>
+        </tr>
+        <tr>
+          <td>Acima de 2000.00</td>
+          <td>4%</td>
+        </tr>
+      </table>
+    </div>
+    Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice
+    reajustado, em percentual.
+    </p>
+
+    <p><strong>Entrada</strong></p>
+    <p>A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.</p>
+
+    <p><strong>Saída</strong></p>
+    <p>Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o percentual de reajuste ganho, conforme
+      exemplo abaixo.</p>
+  </div>
+  <section>
+    <div>
+      <p>Salário do funcionário: <input type="number" name="salario" id="salario"></p>
+      <input type="button" value="Calcular" onclick="calcular()">
+    </div>
+    <div id="res">
+      <p>O resultado irá aparecer aqui...</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      2020 &copy; Criado por Milton Soares
+    </p>
+    <p>
+      <a id="link" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1048" target="_blank">Link do
+        exercício</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
