@@ -7,5 +7,5 @@ function calcular () {
   var distancia = horas * vel
   var combustivel = (distancia / autonomia).toFixed(3)
 
-  res.innerHTML = `Distancia total percorrida: ${distancia}km <br> Combustível gasto: ${combustivel} litros`  
+  res.innerHTML = `Distancia total percorrida: ${distancia}km <br> Combustível gasto: ${combustivel} litros.`  
 }
